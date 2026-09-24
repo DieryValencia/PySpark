@@ -1,0 +1,32 @@
+# Entorno virtual
+ven/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Salidas de Spark/ETL
+out/
+*.crc
+_SUCCESS
+
+# Hadoop local (winutils)
+.hadoop/
+
+# Metastore y logs de Spark
+metastore_db/
+derby.log
+spark-warehouse/
+spark-logs/
+*.log
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
